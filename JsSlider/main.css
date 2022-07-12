@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin-top: 200px;
+    
+}
+.Slider{
+    display: flex;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 200px auto;
+    align-items: center;
+    overflow: hidden;
+}
+.SliderLine{
+    display: flex;
+    position: relative;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ArrowToLeft{
+    margin-right: 150px;
+
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+.ArrowToRight{
+    cursor: pointer;
+}
+.dots{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+.dotNavigation{
+    cursor: pointer;
+    background-color: grey;
+    width: 14px;
+    border-radius: 50%;
+    box-shadow: -6px 5px 8px 0px rgba(34, 60, 80, 0.2);
+    height: 14px;
+}

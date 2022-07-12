@@ -1,0 +1,2703 @@
+/*fonts */  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Noto+Sans:wght@400;700&family=Roboto:wght@500&display=swap');
+
+/*common styles*/ 
+*{
+    padding: 0px;
+    margin: 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+html {width: 100%; overflow-x: hidden;}
+body{
+    background: rgb(0, 0, 0);
+    color: white;
+    height: 10000px;
+    width: 100%;
+    
+}
+/*styles for block which consist of logotype and login*/
+
+.header_LogoPlusLogin{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.header_LogoPlusLogin_Logo{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 100px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.header_LogoPlusLogin_Login{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.header_LogoPlusLogin_Logo_Text{
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.header_LogoPlusLogin_Login_Link{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    padding-bottom: 1px;
+    border-bottom: 1px solid white;
+    font-family: 'Noto Sans', sans-serif;
+}
+.header_LogoPlusLogin_Login_Link:hover{
+    opacity: 0.5;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+/*header offer block styles*/
+
+.header_Offer{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 100px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.header_Offer_RightSide{
+    margin-right: 300px;
+}
+.header_Offer_LeftSide_UnderTitle_Text p{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.header_Offer_LeftSide_UnderTitle_Text{
+    padding-top: 50px;
+    position: relative;
+    padding-left: 70px;
+    width: 450px;
+}
+.header_Offer_LeftSide{
+    margin-left: 150px;
+}
+.header_Offer_LeftSide_Title{
+    margin-top: 100px;
+}
+.header_Offer_LeftSide_Title h1{
+    font-size: 75px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    max-width: 700px;
+}
+.header_Offer_LeftSide_UnderTitle{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 35px;
+}
+.header_Offer_LeftSide_UnderTitle_Icon_BackgroundBlur{
+    height: 80px;
+    margin-top: 30px;
+    -webkit-filter: blur(50px);
+    filter: blur(50px);
+    position: absolute;
+    width: 80px;
+    background: #615ceaf1;
+}
+.header_Offer_LeftSide_UnderTitle_Icon_Bar{
+    height: 150px;
+    width: 4px;
+    margin-left: 30px;
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    background: #FFFFFF;
+}
+.header_Offer_RightSide_BackgroundBlur{
+    position: absolute;
+    height: 500px;
+    -webkit-filter: blur(300px);
+    filter: blur(300px);
+    width: 350px;
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+    background: #fb00ffb4;
+}
+.header_Offer_RightSide_Img{
+    position: relative;
+}
+/* header download block styles*/
+.header_DownloadApp{
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 150px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.header_DownloadApp_Text{
+    margin-left: 150px;
+    font-size: 50px;
+    position: relative;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+/*download buttons styles (app store and google play)*/
+
+.DownloadButtons{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.header_DownloadApp .DownloadButtons{
+    margin-right: 240px;
+}
+.DownloadButtons_AppStore{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    line-height: 17px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 40px;
+}
+.DownloadButtons_AppStore:hover{
+    opacity: 0.5;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+.DownloadButtons_AppStore_Text{
+    margin-left: 10px;
+}
+.DownloadButtons_AppStore_Text_Thin{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+.DownloadButtons_AppStore_Text_Bold{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.DownloadButtons_GooglePlay{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 10px;
+    color: white;
+    line-height: 17px;
+    border: 1px solid white;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.DownloadButtons_GooglePlay:hover{
+    opacity: 0.5;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+.DownloadButtons_GooglePlay_Text{
+    margin-left: 10px;
+}
+.DownloadButtons_GooglePlay_Text_Thin{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.DownloadButtons_GooglePlay_Text_Bold{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*header cookie block styles*/
+.header_Cookie{
+    background: #212834;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    bottom: -100px;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.header_Cookie_Text{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding: 35px 0px 35px 100px;
+}
+.header_Cookie_Button{
+    color: white;
+    border: 1px solid white;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    border-radius: 5px;
+    background: #212834;
+    margin-right: 40px;
+    cursor: pointer;
+}
+/*start using block styles*/
+.StartUsing{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+.StartUsing_Mail{
+    padding: 65px 75px 62px 55px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 220px;
+    margin-right: 100px
+}
+.StartUsing_Mail_Text{
+    font-size: 45px;
+    margin-bottom: 40px;
+    line-height: 55px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    max-width: 545px;
+   
+    
+}
+.StartUsing_Mail_Link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid white;
+}
+.StartUsing_Mail_Link:hover{
+    opacity: 0.4;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+
+.StartUsing_Login{
+    padding-top: 120px;
+    padding-left: 65px;
+    padding-right: 150px;
+    margin-right: 200px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.StartUsing_Login_Text{
+    font-size: 45px;
+    margin-bottom: 40px;
+    line-height: 55px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+}
+.StartUsing_Login_Link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid white;
+}
+.StartUsing_Login_Link:hover{
+    opacity: 0.4;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+/*Section description styles*/
+.SectionDescription_Title{
+    font-size: 55px;
+    margin-bottom: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.SectionDescription_MainText{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*mission section styles*/
+.OurMission{
+    margin-top: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 550px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.OurMission_PhoneImg_Img{
+    position: absolute;
+    left: -120px;
+}
+.OurMission_Description{
+    margin-right: 300px;
+}
+.OurMission_Description .SectionDescription_Title{
+    max-width: 350px;
+
+}
+.OurMission_Description .SectionDescription_MainText{
+    max-width: 355px;
+}
+.OurMission_Description_BackgroundBlur{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    margin-left: 250px;
+    -webkit-filter: blur(50px);
+    filter: blur(50px);
+    margin-top: 30px;
+    background: #ea5cbf;
+}
+.OurMission .SectionDescription{
+    position: relative;
+}
+/*id scanner section styles*/
+.IdScanner{
+    margin-bottom: 200px;
+    background-image: url('Images/ScanerBlockBackground.jpg');
+    height: 1269px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.IdScanner_Wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-top: 600px;
+    margin-left: 300px;
+}
+.IdScanner_PhoneImages_FirstPhone{
+    margin-right: 50px;
+}
+.IdScanner_SectionDescription{
+    padding-top: 400px;
+    padding-right: 300px;
+    
+}
+.IdScanner_SectionDescription .SectionDescription_MainText{
+    width: 340px;
+}
+/*Bi Tool section styles*/
+.BiTool_SectionDescription_BackgroundBlur{
+    height: 100px;
+    width: 100px;
+    background: #4c6fe2;
+    -webkit-filter: blur(100px);
+    filter: blur(100px);
+    position: absolute;
+}
+.BiTool_SectionDescription{
+    margin-left: 200px;
+    padding-top: 100px;
+}
+.BiTool_SectionDescription .SectionDescription_MainText{
+    max-width: 410px;
+}
+.BiTool{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 500px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.BiTool_Charts img{
+    position: absolute;
+}
+.BiTool_Charts{
+    margin-right: 1000px;
+}
+.BiTool_Charts_FirstChart{
+    margin-left: 300px;
+}
+.BiTool_Charts_SecondChart{
+    margin-top: 250px;
+}
+.BiTool_Charts_ThirdChart{
+    margin-top: 300px;
+    margin-left: 250px;
+    z-index: 1;
+
+}
+.BiTool_Charts_FourthChart{
+    margin-top: 180px;
+    margin-left: 430px;
+    z-index: 0;
+}
+.BiTool_Charts_FifthChart{
+    margin-top: 400px;
+    margin-left: 180px;
+}
+.BiTool_Charts_FirstSlicedCircle{
+    margin-top: 180px;
+    margin-left: 130px;
+}
+.BiTool_Charts_SecondSlicedCircle{
+    margin-top: 180px;
+    margin-left: 190px;
+}
+.BiTool_Charts_ThirdSlicedCircle{
+    margin-top: 180px;
+    margin-left: 250px;
+}
+.BiTool_Charts_FourthSlicedCircle{
+    margin-top: 180px;
+    margin-left: 310px;
+}
+.BiTool_Charts_FirstProgressiveCircle{
+    margin-top: 470px;
+    margin-left: 420px;
+}
+.BiTool_Charts_SecondProgressiveCircle{
+    margin-top: 470px;
+    margin-left: 500px;
+}
+.BiTool_Charts_ThirdProgressiveCircle{
+    margin-top: 470px;
+    margin-left: 580px;
+}
+.BiTool_Charts_FourthProgressiveCircle{
+    margin-top: 470px;
+    margin-left: 660px;
+}
+/*qr code section styles*/
+.QrCode{
+    background-image: url('./Images/QrCodeBlockLeftBackground.jpg');
+    height: 606px;
+    background-size: 1001px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.QrCode_Coctail{
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+    margin-top: 30px;
+    -webkit-filter: brightness(110%);
+    filter: brightness(110%);
+    width: 600px;
+}
+.QrCode_NightlifeText{
+    position: absolute;
+    right: 100px;
+    z-index: 2;
+}
+
+.QrCode_MainContent_SectionDescriptionPlusDownloadButtons .SectionDescription{
+    margin-bottom: 70px;
+    padding-top: 200px;
+}
+.QrCode_MainContent_SectionDescriptionPlusDownloadButtons{
+    padding-top: 250px;
+}
+
+.QrCode_MainContent{
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 80px;
+    margin-left: 200px;
+}
+.QrCode_MainContent .SectionDescription_MainText{
+    width: 350px;
+}
+
+.QrCode_MainContent_PhoneImg{
+    margin-right: 100px;
+    z-index: 3;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+}
+.QrCode_MainContent_PhoneImg_HigherPhone{
+    margin-top: 150px;
+    margin-right: 130px;
+}
+.QrCode_MainContent_PhoneImg_LowestPhone{
+    margin-top: 500px;
+}
+
+.QrCode_NoTab{
+    background-image: url(./Images/QrCodeNoTabBackground.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 900px;
+    height: 700px;
+    background-position: center;
+}
+.QrCode_NoTab_CentralImg{
+    
+    left: 40%;
+    position: absolute;
+}
+.LiquidPhone{
+    margin-top: 240px;
+}
+
+.QrCode_NoTab_BackgroundBlur{
+    width: 300px;
+    position: absolute;
+    z-index: 1;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(33%, rgb(241, 1, 191)), color-stop(72%, rgb(0, 102, 255)));
+    background: linear-gradient(0deg, rgb(241, 1, 191) 33%, rgb(0, 102, 255) 72%);
+    height: 500px;
+    -webkit-filter: blur(250px);
+    filter: blur(250px);
+}
+.QrCode_NoTab_PhoneImg{
+    z-index: 2;
+    position: relative;
+}
+.QrCode_NoTab_ScanQrCode{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.QrCode_MiniText{
+    position: absolute;
+   
+    top: 200px;
+    left: 400px
+}
+.QrCode_NoTab_ScanQrCode{
+    width: 170px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.QrCode_NoTab_Arrow{
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+}
+.QrCode_NoTab_GenerateYourQrCode{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.QrCode_NoTab_GenerateYourQrCode_Title{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 100px;
+    font-size: 55px;
+}
+.QrCode_NoTab_GenerateYourQrCode_MainText{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 100px;
+}
+/*liquid phone section styles*/
+.LiquidPhone{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.LiquidPhone_SectionDescription{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 200px;
+    margin-right: 250px;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+.LiquidPhone_MainImg{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.LiquidPhone_MainImg div{
+    position: absolute;
+    -webkit-box-shadow: 0 0 3px 0;
+    box-shadow: 0 0 3px 0;
+    border-radius: 10px;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.LiquidPhone_MainImg_FirstBorderDiv{
+    margin-top: 200px;
+    background: black;
+    margin-left: 320px;
+    padding: 23px;
+}
+.LiquidPhone_MainImg_SecondBorderDiv{
+    margin-top: 350px;
+    background: black;
+    margin-right: 600px;
+    padding: 25px 35px;
+}
+.LiquidPhone_MainImg_ThirdBorderDiv{
+    margin-top: 640px;
+    background: black;
+    padding: 19px 25px;
+    margin-left: 750px;
+}
+.LiquidPhone_MainImg_FourthBorderDiv{
+    margin-top: 740px;
+    background: black;
+    padding: 19px 25px;
+    margin-right: 270px;
+}
+/*No Tab on Phone section styles*/
+.NoTabOnPhone{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-image: url('./Images/NoTabSecondBackground.svg');
+    height: 1100px;
+}
+/*get in touch section styles*/
+.GetInTouch{
+    margin-bottom: 300px;
+    height: 1000px;
+}
+.GetInTouch .SectionDescription{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: 2;
+    margin-bottom: 82px;
+}
+.GetInTouch .SectionDescription_MainText{
+    text-align: center;
+}
+.GetInTouch_SectionDecription_BackgroundBlur{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(20%, rgb(241, 1, 191)), to(rgb(0, 102, 255)));
+    background: linear-gradient(0deg, rgb(241, 1, 191) 20%, rgb(0, 102, 255));
+    -webkit-filter: blur(180px);
+    filter: blur(180px);
+    margin-right: 500px;
+    z-index: 0;
+}
+.GetInTouch_Feed{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    z-index: 2;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.GetInTouch_Feed_Form{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.GetInTouch_Feed_Form_City{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.GetInTouch_Feed_Form_Name{
+    background: white;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 20px;
+    padding: 29px 440px 29px 23px;  
+}
+.GetInTouch_Feed_Form_Name:focus{
+    background: rgb(226, 226, 226);
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+.GetInTouch_Feed_Form_Name::-webkit-input-placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_Name::-moz-placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_Name:-ms-input-placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_Name::-ms-input-placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_Name::placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_VenueName{
+    background: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    
+    padding: 29px 440px 29px 23px;  
+    
+}
+.GetInTouch_Feed_Form_VenueName:focus{
+    background: rgb(226, 226, 226);
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+.GetInTouch_Feed_Form_VenueName::-webkit-input-placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_VenueName::-moz-placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_VenueName:-ms-input-placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_VenueName::-ms-input-placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_VenueName::placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_City{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.GetInTouch_Feed_Form_City_VenueCity{
+    background: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    margin-right: 16px;
+    
+    padding: 29px 80px 29px 23px;  
+    
+}
+.GetInTouch_Feed_Form_City_VenueCity:focus{
+    background: rgb(226, 226, 226);
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+.GetInTouch_Feed_Form_City_VenueCity::-webkit-input-placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_City_VenueCity::-moz-placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_City_VenueCity:-ms-input-placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_City_VenueCity::-ms-input-placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_City_VenueCity::placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_City_StateCity{
+    background: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    
+    padding: 29px 80px 29px 23px;  
+    
+}
+.GetInTouch_Feed_Form_City_StateCity:focus{
+    background: rgb(226, 226, 226);
+    -webkit-transition: 1s;
+    transition: 1s;
+    
+}
+.GetInTouch_Feed_Form_City_StateCity::-webkit-input-placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_City_StateCity::-moz-placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_City_StateCity:-ms-input-placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_City_StateCity::-ms-input-placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_City_StateCity::placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_Email{
+    background: white;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 20px;
+    padding: 29px 440px 29px 23px;  
+}
+.GetInTouch_Feed_Form_Email:focus{
+    background: rgb(226, 226, 226);
+    -webkit-transition: 1s;
+    transition: 1s;
+    
+}
+.GetInTouch_Feed_Form_Email::-webkit-input-placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_Email::-moz-placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_Email:-ms-input-placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_Email::-ms-input-placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_Email::placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_Subject{
+    background: white;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 20px;
+    padding: 29px 440px 29px 23px;  
+    
+}
+.GetInTouch_Feed_Form_Subject:focus{
+    background: rgb(226, 226, 226);
+    -webkit-transition: 1s;
+    transition: 1s;
+    
+}
+.GetInTouch_Feed_Form_Subject::-webkit-input-placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_Subject::-moz-placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_Subject:-ms-input-placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_Subject::-ms-input-placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_Subject::placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_Message{
+    background: white;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 20px;
+    height: 200px;
+    width: 100%;
+    padding: 20px;
+    resize: none;
+}
+.GetInTouch_Feed_Form_Message:focus{
+    background: rgb(226, 226, 226);
+    -webkit-transition: 1s;
+    transition: 1s;
+    
+}
+.GetInTouch_Feed_Form_Message::-webkit-input-placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    opacity: 0.7;
+    width: 100%;
+}
+.GetInTouch_Feed_Form_Message::-moz-placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    opacity: 0.7;
+    width: 100%;
+}
+.GetInTouch_Feed_Form_Message:-ms-input-placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    opacity: 0.7;
+    width: 100%;
+}
+.GetInTouch_Feed_Form_Message::-ms-input-placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    opacity: 0.7;
+    width: 100%;
+}
+.GetInTouch_Feed_Form_Message::placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    opacity: 0.7;
+    width: 100%;
+}
+.GetInTouch_Feed_Form_Send{
+    margin-top: 40px;
+    background: black;
+    padding: 25px 150px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+.GetInTouch_Feed_Form_Send:hover{
+    background: rgb(77, 77, 77);
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+/*footer settings*/
+.footer_Info{
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 80px;
+}
+.footer_DownloadOurApp{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 150px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.footer_DownloadOurApp_Text{
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+footer .DownloadButtons_AppStore{
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+footer .DownloadButtons img{
+    width: 50px;
+    margin-right: 10px;
+}
+footer .DownloadButtons_AppStore_Text_Bold{
+    font-size: 30px;
+    font-weight: 600;
+}
+footer .DownloadButtons_AppStore_Text_Thin{
+    font-size: 16px;
+    padding-bottom: 10px;
+    letter-spacing: 0.1px;
+}
+
+footer .DownloadButtons_GooglePlay_Text_Bold{
+    font-size: 30px;
+    font-weight: 600;
+}
+footer .DownloadButtons_GooglePlay_Text_Thin{
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    letter-spacing: 0.1px;
+}
+footer .DownloadButtons_GooglePlay{
+    padding: 15px 20px;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+.footer_Info_Copyright{
+    margin-left: 100px;
+}
+.footer_Info_Copyright_CompanyName{
+    font-size: 26px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 15px;
+}
+.footer_Info_Copyright_Mail{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+    line-height: 25px;
+    position: relative;
+    font-size: 18px;
+    z-index: 2;
+}
+.footer_Info_Copyright_License{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    position: relative;
+    z-index: 2;
+    
+    font-size: 18px;
+}
+.footer_Info_Links{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-right: 100px;
+}
+.footer_Info_Links a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+.footer_Info_Links a:first-child{
+    margin-bottom: 25px;
+}
+.footer_Info_Links a:hover{
+    opacity: 0.5;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+.footer_Info_Copyright_BackgroundBlur{
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(45deg, rgb(241, 1, 191) 13%, rgb(0, 102, 255));
+    -webkit-filter: blur(120px);
+    filter: blur(120px);
+    z-index: 1;
+    position: absolute;
+}
+
+/*media screens*/
+@media (max-width: 1807px) {
+    .StartUsing_Mail{
+        margin-left: 150px;
+        margin-right: 50px;
+    }
+    .StartUsing_Login{
+        margin-right: 150px;
+    }
+    .IdScanner_SectionDescription{
+        padding-right: 150px;
+    }
+    .IdScanner_Wrapper{
+        padding-top: 400px;
+    }
+    .BiTool_Charts {
+        margin-right: 857px;
+    }
+}
+@media (max-width: 1727px) {
+    .OurMission_Description{
+        margin-right: 150px;
+    }
+    .BiTool_Charts {
+        margin-right: 745px;
+    }
+    .BiTool_SectionDescription{
+        margin-left: 100px;
+    }
+}
+@media (max-width: 1644px) {
+    .StartUsing{
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .StartUsing_Mail{
+        max-width: 700px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 80px;
+    }
+    .StartUsing_Login{
+        margin-right: 0px;
+        padding-left: 63px;
+        padding-right: 233px;
+        max-width: 700px;
+        padding-bottom: 100px;
+    }
+    .IdScanner_Wrapper{
+        margin-left: 150px;
+    }
+
+}
+
+@media (max-width: 1613px) {
+    .header_Offer_RightSide{
+        margin-right: 150px;
+    }
+    .header_DownloadApp .DownloadButtons{
+        margin-right: 110px;
+    }
+    .QrCode_MainContent_PhoneImg_HigherPhone{
+        margin-right: 30px;
+    }
+}
+@media (max-width: 1554px) {
+    .OurMission_PhoneImg_Img{
+        width: 700px;
+    }
+    .IdScanner_SectionDescription{
+        padding-right: 75px;
+    }
+    .IdScanner_Wrapper{
+        padding-top: 300px;
+        margin-left: 75px;
+    }
+    .OurMission{
+        margin-bottom: 400px;
+    }
+    .QrCode_MainContent{
+        margin-left: 0px;
+        padding-top: 1000px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .QrCode_Coctail{
+        margin-top: 700px;
+        margin-right: 27%;
+    }
+    .QrCode_NightlifeText{
+        margin-top: 700px;
+        margin-right: 27%;
+    }
+    .QrCode{
+        background-size: 100%;
+    }
+    .QrCode_MainContent_PhoneImg{
+        margin-right: 0px;
+    }
+    .QrCode_NoTab{
+        margin-top: 2700px;
+        
+    }
+    .QrCode_NoTab_CentralImg{
+        margin-top: -120px;
+    }
+}
+
+@media (max-width: 1438px) {
+    .header_Offer_LeftSide{
+        margin-left: 100px;
+    }
+    .header_LogoPlusLogin{
+        margin-left: 100px;
+    }
+    .header_Offer_RightSide_BackgroundBlur{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    .header_Offer_RightSide{
+        margin-right: 50px;
+    }
+    .header_DownloadApp_Text{
+        margin-left: 100px;
+    }
+    .IdScanner{
+        margin-bottom: 50px;
+    }
+    .BiTool_Charts_FourthProgressiveCircle{
+        display: none;
+    }
+    .BiTool_Charts {
+        margin-right: 652px;
+    }
+    .LiquidPhone{
+        margin-top: 357px;
+    }
+    .LiquidPhone_SectionDescription{
+        margin-bottom: 200px;
+    }
+    
+}
+@media (max-width: 1320px) {
+    .BiTool_SectionDescription{
+        margin-left: 50px;
+    }
+    .LiquidPhone {
+        margin-top: 286px;
+    }
+}
+@media (max-width: 1275px) {
+    .header_DownloadApp{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .header_DownloadApp_Text{
+        margin-left: 0px;
+    }
+    .header_DownloadApp .DownloadButtons{
+        margin-right: 0px;
+        padding-top: 70px;
+    }
+    .header_Offer_RightSide{
+        margin-right: 10px;
+    }
+    .header_Offer_LeftSide{
+        margin-left: 50px;
+    }
+    .OurMission_Description{
+        margin-right: 100px;
+    }
+    .OurMission{
+        margin-bottom: 330px;
+    }
+    .IdScanner_PhoneImages_FirstPhone{
+        margin-right: 5px;
+    }
+    .IdScanner_Wrapper{
+        padding-top: 240px;
+    }
+    .IdScanner{
+        height: 950px;
+    }
+    .IdScanner_PhoneImages img{
+        max-width: 250px;
+    }
+    .IdScanner_SectionDescription{
+        padding-top: 300px;
+    }
+    .IdScanner_Wrapper{
+        margin-left: 30px;
+    }
+    .QrCode_NoTab_GenerateYourQrCode_MainText{
+        margin-right: 50px;
+    }
+}
+@media (max-width: 1175px) {
+    .BiTool{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .BiTool_SectionDescription{
+        margin-left: 0px;
+        padding-top: 0px;
+        margin-bottom: 100px;
+    }
+    .QrCode_Coctail{
+        display: none;
+    }
+    .QrCode_NightlifeText{
+        display: none;
+    }
+    .QrCode_MainContent{
+        padding-top: 300px;
+    }
+    .BiTool{
+        margin-bottom: 752px;
+    }
+    .QrCode_NoTab{
+        margin-top: 2000px;
+    }
+    .QrCode_NoTab_GenerateYourQrCode{
+        margin-top: 40px;
+    }
+    .QrCode_NoTab_CentralImg{
+        left: 37%;
+    }
+}
+@media (max-width: 1100px) {
+    .OurMission_PhoneImg_Img{
+        width: 500px;
+    }
+    .OurMission_Description .SectionDescription_MainText{
+        max-width: 400px;
+    }
+    .LiquidPhone {
+        margin-top: 153px;
+    }
+}
+@media (max-width: 1025px ) {
+    .StartUsing_Mail h4{
+        font-size: 35px;
+    }
+    .StartUsing_Login h4{
+        font-size: 35px;
+    }
+    .StartUsing_Login{
+        padding-left: 63px;
+        padding-right: 310px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .OurMission{
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+    .OurMission_PhoneImg_Img{
+        position: relative;
+        left: 0;
+        width: 800px;
+    }
+    .OurMission_PhoneImg{
+        margin-top: 400px;
+    }
+    .OurMission_PhoneImg_Img{
+        -webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+    }
+    .OurMission_Description{
+        margin-right: 0px;
+    }
+    .OurMission_Description_BackgroundBlur{
+        margin-left: 36px;
+    }
+    .IdScanner_Wrapper{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-left: 0px;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+    .IdScanner_PhoneImages{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-top: 100px;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .IdScanner_PhoneImages img:first-child{
+        margin-bottom: 30px;
+    }
+    .IdScanner_SectionDescription{
+        padding-right: 0px;
+        padding-top: 200px;
+    }
+    .IdScanner{
+        padding-bottom: 1900px;
+    }
+    .QrCode_NoTab_GenerateYourQrCode_Title{
+        margin-left: 40px;
+        font-size: 30px;
+    }
+    .QrCode_NoTab_GenerateYourQrCode_MainText{
+        font-size: 18px;
+    }
+    .QrCode_NoTab_CentralImg{
+        left: 32%;
+        margin-top: -175px;
+    }
+    .QrCode_MiniText{
+        left: 372px;
+    }
+    .QrCode_NoTab{
+        margin-top: 300px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+    .QrCode{
+        margin-bottom: 2000px;
+    }
+    .QrCode_NoTab_GenerateYourQrCode{
+        margin-top: -271px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .QrCode_NoTab_GenerateYourQrCode_Title{
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+    .QrCode_NoTab_GenerateYourQrCode_MainText{
+        margin-right: 0px;
+        
+    }
+    .QrCode_NoTab_GenerateYourQrCode{
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+    
+    
+
+    
+}
+@media (max-width: 1011px) {
+    .LiquidPhone {
+        margin-top: -7px;
+    }
+    .LiquidPhone_MainImg_SecondBorderDiv{
+        margin-top: -57px;
+        margin-right: 402px;
+    }
+    .LiquidPhone_MainImg_FirstBorderDiv{
+        margin-top: 106px;
+    }
+    .LiquidPhone_MainImg_FourthBorderDiv{
+        margin-right: 468px;
+    }
+    .LiquidPhone_MainImg_ThirdBorderDiv{
+        margin-top: 929px;
+        margin-left: 559px;
+    }
+    .LiquidPhone_SectionDescription{
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-right: 0px;
+    }
+    .NoTabOnPhone_Img img{
+        max-width: 600px;
+    }
+    .LiquidPhone{
+        margin-bottom: 100px;
+    }
+    
+}
+@media (max-width: 870px) {
+    .LiquidPhone_SectionDescription{
+        margin-bottom: 300px;        
+    }
+    .LiquidPhone_MainImg img{
+        max-width: 700px;
+    }
+    .LiquidPhone_MainImg_FourthBorderDiv{
+        margin-top: 573px;
+    }
+    .LiquidPhone_MainImg_ThirdBorderDiv{
+        margin-top: 674px;
+        margin-left: 418px;
+    }
+}
+@media (max-width: 800px) {
+    .header_LogoPlusLogin{
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+    .header_LogoPlusLogin_Login{
+        margin-right: 100px;
+    }
+    .header_Offer_LeftSide_UnderTitle_Icon_Bar{
+        display: none;
+    }
+    .header_Offer_LeftSide_UnderTitle_Text{
+        padding-left: 0px;
+    }
+    .header_Offer_LeftSide_UnderTitle{
+        margin-left: 0px;
+    }
+    .header_Cookie_Text{
+        padding-left: 40px;
+        max-width: 500px;
+    }
+    .OurMission_PhoneImg_Img{
+        max-width: 500px;
+    }
+    .OurMission_PhoneImg{
+        margin-top: 300px;
+    }
+    .IdScanner_SectionDescription{
+        padding-top: 150px;   
+    }
+    .QrCode_MainContent{
+        padding-top: 100px;
+    }
+    .QrCode_MainContent_PhoneImg_HigherPhone{
+        
+        margin: 100px 0px 50px 0px;
+    }
+    .QrCode_MainContent_PhoneImg_LowestPhone{
+        margin-top: 0px;
+    }
+    .QrCode_MainContent_PhoneImg{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .QrCode_MiniText{
+        top: 667px;
+        left: 272px;
+    }
+    .QrCode_NoTab_Arrow{
+        -webkit-transform: rotate(26deg);
+        transform: rotate(26deg);
+        margin-left: 40px;
+    }
+    .QrCode_NoTab_CentralImg{
+        left: 29%;
+    }
+    .QrCode_NoTab{
+        margin-top: 2100px;
+    }
+    .QrCode_NoTab{
+        background-position: center;
+        margin-top: 705px;
+    }
+    .QrCode{
+        margin-bottom: 2200px;
+    }
+    .LiquidPhone_SectionDescription{
+        margin-top: 300px;
+    }
+    .LiquidPhone_MainImg_FirstBorderDiv p{
+        font-size: 16px;
+    }
+    .LiquidPhone_MainImg_FirstBorderDiv{
+        padding: 20px 25px 20px 24px;
+    }
+
+    .LiquidPhone_MainImg_SecondBorderDiv p{
+        font-size: 16px;
+    }
+    .LiquidPhone_MainImg_SecondBorderDiv{
+        padding: 20px 25px 20px 24px;
+    }
+    
+    .LiquidPhone_MainImg_ThirdBorderDiv p{
+        font-size: 16px;
+    }
+    .LiquidPhone_MainImg_ThirdBorderDiv{
+        padding: 20px 25px 20px 24px;
+    }
+    .LiquidPhone_MainImg_FourthBorderDiv p{
+        font-size: 16px;
+    }
+    .LiquidPhone_MainImg_FourthBorderDiv{
+        padding: 20px 25px 20px 24px;
+    }
+    .LiquidPhone_MainImg img{
+        max-width: 600px;
+    }
+
+
+}
+@media (max-width: 750px) {
+    .GetInTouch_Feed_Form_Name{
+        padding-right: 300px;
+    }
+    .GetInTouch_Feed_Form_VenueName{
+        padding-right: 300px;
+    }
+    .GetInTouch_Feed_Form_City_VenueCity{
+        margin-right: 0px;
+    }
+    .GetInTouch_Feed_Form_City{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .GetInTouch_Feed_Form_City_VenueCity{
+        padding-right: 300px;
+        margin-bottom: 20px;
+    }
+    .GetInTouch_Feed_Form_City_StateCity{
+        padding-right: 300px;
+    }
+    .GetInTouch_Feed_Form_Email{
+        padding-right: 300px;
+    }
+    .GetInTouch_Feed_Form_Subject{
+        padding-right: 300px;
+    }
+}
+@media (max-width: 700px) {
+    .header_Offer_LeftSide_Title h1{
+        font-size: 60px;
+        position: relative;
+        z-index: 3;
+    }
+    .header_Offer_LeftSide_UnderTitle_Text p{
+        position: relative;
+        z-index: 3;
+    }
+    .header_Offer_LeftSide_UnderTitle_Text{
+        width: 300px;
+        padding-top: 0px;
+    }
+    .header_Cookie_Text{
+        width: 300px;
+    }
+    .header_DownloadApp_Text{
+        font-size: 35px;
+    }
+    .header_Offer_LeftSide_UnderTitle{
+        margin-top: 50px;
+    }
+    .StartUsing_Mail{
+        margin-bottom: 40px;
+    }
+    .StartUsing_Mail{
+        padding-right: 0px;
+        padding-left: 40px;
+    }
+    .StartUsing_Mail_Text{
+        max-width: 450px;
+    }
+    .StartUsing_Login{
+        padding-right: 150px;
+        padding-left: 40px;
+    }
+    .IdScanner_SectionDescription{
+        padding-top: 90px;   
+    }
+    .QrCode_NoTab_GenerateYourQrCode_Title{
+        font-size: 24px;
+    }
+    .QrCode_NoTab_GenerateYourQrCode_MainText{
+        font-size: 12px;
+    }
+    .QrCode_NoTab_CentralImg{
+        margin-top: -229px;
+    }
+    .NoTabOnPhone{
+        display: none;
+    }
+    .GetInTouch{
+        margin-top: 200px;
+    }
+    .footer_DownloadOurApp .DownloadButtons_AppStore{
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
+    .footer_DownloadOurApp .DownloadButtons{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .footer_Info{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        
+    }
+    .footer_Info_Links{
+        text-align: center;
+        margin-right: 0px;
+    }
+    .footer_Info_Copyright{
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 80px;
+    }
+}
+@media (max-width: 633px) {
+    .BiTool_Charts_FourthChart{
+        width: 120px;
+        margin-top: 38px;
+        margin-left: 474px;
+    }
+    .BiTool_Charts_ThirdChart{
+        width: 130px;
+        margin-top: 120px;
+        margin-left: 346px;
+    }
+    .BiTool_Charts_FourthSlicedCircle{
+        width: 40px;
+        margin-top: 141px;
+        margin-left: 250px;
+    }
+    .BiTool_Charts_ThirdSlicedCircle{
+        margin-top: 140px;
+        margin-left: 190px;    
+        width: 40px;
+    }
+    .BiTool_Charts_SecondSlicedCircle{
+        width: 40px;
+        margin-top: 140px;
+        margin-left: 130px;
+    }
+    .BiTool_Charts_FirstSlicedCircle{
+        width: 40px;
+        margin-top: 140px;
+        margin-left: 70px
+    }
+    .BiTool_Charts_FifthChart{
+        width: 130px;
+        margin-top: 198px;
+        margin-left: 254px;
+    }
+    .BiTool_Charts_SecondChart{
+        display: none;
+    }
+    .BiTool_Charts_FirstChart {
+        margin-top: 240px;
+        margin-left: -85px;
+    }
+    .BiTool_Charts_FirstProgressiveCircle {
+        margin-top: 317px;
+        margin-left: 342px;
+    }
+    .BiTool_Charts_SecondProgressiveCircle {
+        margin-top: 317px;
+        margin-left: 421px;
+    }
+    .BiTool_Charts_ThirdProgressiveCircle {
+        margin-top: 317px;
+        margin-left: 498px;
+    }
+    .BiTool_SectionDescription_BackgroundBlur{
+        display: none;
+    }
+    .BiTool{
+        margin-bottom: 476px;
+    }
+    .QrCode_NoTab_PhoneImg_Img{
+        width: 200px;
+    }
+    .QrCode_NoTab_CentralImg{
+        margin-top: -100px;
+        left: 35%;
+    }
+    .QrCode_MiniText {
+        top: 377px;
+        left: 162px; 
+    }
+    .QrCode_NoTab{
+        height: 490px;
+        margin-top: 2000px;
+    }
+    .QrCode_NoTab_GenerateYourQrCode{
+        margin-top: -139px;
+    }
+    .QrCode_NoTab{
+        margin-top: 0px;
+    }
+    .QrCode{
+        margin-bottom: 2000px;
+    }
+    .QrCode_NoTab_GenerateYourQrCode_Title{
+        font-size: 34px;
+    }
+    .QrCode_NoTab_GenerateYourQrCode_MainText{
+        font-size: 16px;
+    }
+    .LiquidPhone_MainImg_FirstBorderDiv{
+        margin-left: 221px;
+    }
+    .LiquidPhone_MainImg_SecondBorderDiv{
+        margin-right: 258px;
+    }
+    .LiquidPhone_MainImg_FourthBorderDiv{
+        margin-right: 257px;
+    }
+    .LiquidPhone_MainImg_ThirdBorderDiv {
+        margin-top: 589px;
+        margin-left: 326px;
+    }
+    .NoTabOnPhone_Img img{
+        max-width: 400px;
+    }
+    .GetInTouch .SectionDescription_MainText{
+        max-width: 500px;
+    }
+    .GetInTouch_Feed_Form_Name{
+        padding-right: 200px;
+    }
+    .GetInTouch_Feed_Form_VenueName{
+        padding-right: 200px;
+    }
+    .GetInTouch_Feed_Form_City_VenueCity{
+        padding-right: 200px;
+    }
+    .GetInTouch_Feed_Form_City_StateCity{
+        padding-right: 200px;
+    }
+    .GetInTouch_Feed_Form_Email{
+        padding-right: 200px;
+    }
+    .GetInTouch_Feed_Form_Subject{
+        padding-right: 200px;
+    }
+}
+@media (max-width: 600px) {
+    .QrCode_Coctail{
+        display: block;
+        max-width: 400px;
+        margin-top: 822px;
+        margin-right: 0;
+    }
+    .QrCode_MainContent_SectionDescriptionPlusDownloadButtons .SectionDescription{
+        padding-top: 100px;
+    }
+    .QrCode_NightlifeText{
+        display: block;
+        margin-top: 822px;
+        margin-right: 0;
+    }
+    .QrCode_MainContent_PhoneImg{
+        margin-top: 250px;
+    }
+    .QrCode_NoTab{
+        margin-top: 2100px;
+    }
+    .QrCode_NoTab {
+        margin-top: 0px;
+    }
+    .QrCode{
+        margin-bottom: 2200px;
+    }
+    .LiquidPhone_MainImg img{
+        max-width: 400px;
+    }
+    .LiquidPhone_MainImg_SecondBorderDiv p{
+        font-size: 14px;
+    }
+    .LiquidPhone_MainImg_SecondBorderDiv{
+        margin-top: -127px;
+        margin-right: 155px;
+    }
+    .LiquidPhone_MainImg_FirstBorderDiv p{
+        font-size: 14px;
+    }
+    .LiquidPhone_MainImg_FirstBorderDiv{
+        margin-top: 13px;
+    }
+    .LiquidPhone_MainImg_FourthBorderDiv p{
+        font-size: 14px;
+    }
+    .LiquidPhone_MainImg_FourthBorderDiv{
+        margin-top: 364px;
+        margin-right: 182px;
+    }
+    .LiquidPhone_MainImg_ThirdBorderDiv p{
+        font-size: 14px;
+    }
+    .LiquidPhone_MainImg_ThirdBorderDiv{
+        margin-top: 444px;
+    }
+    
+}
+@media (max-width: 578px) {
+    .header_Offer_LeftSide{
+        margin-left: 10px;
+    }
+    .header_Offer_RightSide_Img{
+        width: 120px;
+        padding-top: 30px;
+    }
+    .header_Offer_LeftSide_Title h1{
+        font-size: 40px;
+        max-width: 250px;
+        margin-right: 0px;
+    }
+    .header_LogoPlusLogin{
+        margin-left: 10px;
+    }
+    .header_DownloadApp .DownloadButtons_AppStore{
+        margin-right: 20px;
+    }
+    .StartUsing_Mail h4{
+        max-width: 350px;
+        font-size: 24px;
+        line-height: 35px;
+    }
+    
+    .StartUsing_Login h4{
+        font-size: 24px;
+    }
+    .OurMission_Description .SectionDescription_Title{
+        font-size: 45px;
+    }
+    .OurMission_Description .SectionDescription_MainText{
+        font-size: 15px;
+        max-width: 300px;
+    }
+    .IdScanner_SectionDescription{
+        padding-top: 0px;
+    }
+    .IdScanner{
+        padding-bottom: 1750px;
+    }
+    .BiTool_Charts_SecondSlicedCircle {
+        margin-left: 114px;
+    }
+    .BiTool_Charts_ThirdSlicedCircle {
+        margin-left: 161px;
+    }
+    .BiTool_Charts_FourthSlicedCircle {
+        margin-left: 204px;
+    }
+    .BiTool_Charts_ThirdChart {
+        margin-left: 301px;
+    }
+    .BiTool_Charts_FourthChart {
+        margin-left: 379px;
+    }
+    .BiTool_Charts_FirstProgressiveCircle {
+        margin-left: 283px;
+    }
+    .BiTool_Charts_SecondProgressiveCircle {
+        margin-left: 350px;
+    }
+    .BiTool_Charts_ThirdProgressiveCircle {
+        margin-left: 419px;
+    }
+    .BiTool_SectionDescription .SectionDescription{
+        margin-left: 20px;
+    }
+    .BiTool_Charts_FirstChart {
+        margin-left: -50px;
+    }
+    .BiTool_Charts_FirstSlicedCircle{
+        max-width: 30px;
+        margin-top: 124px;
+        margin-left: 128px;
+    }
+    .BiTool_Charts_SecondSlicedCircle{
+        max-width: 30px;
+        margin-top: 124px;
+        margin-left: 178px;
+    }
+    .BiTool_Charts_ThirdSlicedCircle{
+        max-width: 30px;
+        margin-top: 124px;
+        margin-left: 227px;
+    }
+    .BiTool_Charts_FourthSlicedCircle{
+        max-width: 30px;
+        margin-top: 124px;
+        margin-left: 270px;
+    }
+    .BiTool_Charts_FourthChart {
+        margin-left: 430px;
+    }
+    .BiTool_Charts_ThirdChart {
+        
+            margin-top: 112px;
+            margin-left: 358px;
+        
+    }
+    .BiTool_Charts_FifthChart{
+        margin-top: 162px;
+        width: 90px;
+        margin-left: 302px;
+    }
+    .BiTool_Charts_ThirdProgressiveCircle {
+        margin-left: 482px;
+        margin-top: 265px;
+    }
+    .BiTool_Charts_SecondProgressiveCircle {
+        margin-left: 411px;
+        margin-top: 265px;
+    }
+    .BiTool_Charts_FirstProgressiveCircle {
+        margin-left: 339px;
+        margin-top: 265px;
+    }
+    .BiTool_Charts_FourthChart{
+        width: 85px;
+    }    
+    .BiTool_Charts_ThirdChart{
+        width: 90px;
+    }
+    .QrCode_MiniText{
+        left: 100px;
+    }
+    .QrCode_NoTab_Arrow{
+        -webkit-transform: rotate(33deg);
+        transform: rotate(33deg);
+        margin-left: 98px;
+    }
+    .QrCode_NoTab_CentralImg{
+        left: 32%;
+    }
+
+}
+@media (max-width: 506px) {
+    .OurMission_PhoneImg_Img{
+        max-width: 400px;
+    }
+    .OurMission_PhoneImg{
+        margin-top: 220px;
+    }
+    .OurMission_Description .SectionDescription_Title{
+        font-size: 27px;
+    }
+    .OurMission_Description .SectionDescription_MainText{
+        font-size: 14px;
+    }
+    .OurMission{
+        margin-top: 150px;
+    }
+    .IdScanner_SectionDescription .SectionDescription_Title{
+        font-size: 27px;
+    }
+    .IdScanner_SectionDescription .SectionDescription_MainText{
+        font-size: 14px;
+    }
+    .SectionDescription_MainText{
+        max-width: 300px;
+    }
+    .IdScanner_Wrapper{
+        padding-top: 200px;
+    }
+    .SectionDescription_Title{
+        font-size: 27px;
+    }
+    .SectionDescription_MainText{
+        font-size: 14px;
+    }
+    .BiTool_SectionDescription .SectionDescription_MainText{
+        max-width: 300px;
+    }
+    .IdScanner{
+        padding-bottom: 1600px;
+    }
+    .QrCode_Coctail{
+        max-width: 340px;
+    }
+    .QrCode_MainContent_SectionDescriptionPlusDownloadButtons .DownloadButtons_AppStore{
+        margin-right: 0px;
+        padding-left: 22px;
+        padding-right: 22px;
+        margin-bottom: 50px;
+    }
+    .QrCode_MainContent_SectionDescriptionPlusDownloadButtons .DownloadButtons{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .QrCode_MainContent_PhoneImg{
+        margin-top: 300px;
+    }
+    .QrCode_Coctail{
+        margin-top: 950px;
+    }
+    .QrCode_NightlifeText{
+        margin-top: 910px;
+    }
+    .GetInTouch_Feed_Form_Name{
+        padding-right: 100px;
+    }
+    .GetInTouch_Feed_Form_VenueName{
+        padding-right: 100px;
+    }
+    .GetInTouch_Feed_Form_City_VenueCity{
+        padding-right: 100px;
+    }
+    .GetInTouch_Feed_Form_City_StateCity{
+        padding-right: 100px;
+    }
+    .GetInTouch_Feed_Form_Email{
+        padding-right: 100px;
+    }
+    .GetInTouch_Feed_Form_Subject{
+        padding-right: 100px;
+    }
+    .GetInTouch .SectionDescription_MainText{
+        max-width: 300px;
+    }
+}
+@media (max-width: 470px) {
+        .OurMission{
+            margin-bottom: 200px;
+        }
+        .QrCode_MainContent{
+            padding-top: 100px;
+        }
+        .BiTool{
+            margin-bottom: 376px;
+        }
+        .LiquidPhone_MainImg_FirstBorderDiv{
+            margin-left: 174px;
+            padding: 13px 20px 13px 17px;
+        }
+        .LiquidPhone_MainImg_SecondBorderDiv{
+            padding: 13px 20px 13px 17px;
+        }
+        .LiquidPhone_MainImg_ThirdBorderDiv{
+            margin-left: 236px;
+            margin-top: 439px;
+            padding: 13px 20px 13px 17px;
+        }
+        .LiquidPhone_MainImg_FourthBorderDiv{
+            padding: 13px 20px 13px 17px;
+        }
+}
+@media (max-width: 441px) {
+    .header_Offer_RightSide_Img{
+        width: 80px;
+        padding-top: 100px;
+    }
+    .header_Offer{
+        margin-top: 20px;
+    }
+    .header_DownloadApp_Text{
+        font-size: 24px;
+    }
+    .header_DownloadApp .DownloadButtons {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .header_DownloadApp .DownloadButtons_AppStore{
+        margin-right: 0px;
+        margin-bottom: 40px;
+        padding-right: 23px;
+        padding-left: 23px;
+    }
+    .header_LogoPlusLogin_Logo_Text{
+        font-size: 20px;
+    }
+    .header_LogoPlusLogin_Logo_Img{
+        width: 70px;
+    }
+    .header_Cookie_Text{
+        padding-left: 30px;
+        font-size: 10px;
+        max-width: 200px;
+    }
+    .header_LogoPlusLogin_Login{
+        margin-right: 40px;
+    }
+    .header_Offer_LeftSide_Title h1{
+        font-size: 30px;
+        max-width: 180px;
+    }
+    .header_Offer_LeftSide_UnderTitle_Text p{
+        font-size: 18px;
+        max-width: 180px;
+    }
+    .header_LogoPlusLogin_Logo{
+        margin-right: 0px;
+    }
+    .header_Cookie_Button{
+        margin-right: 20px;
+    }
+    .StartUsing{
+        margin-top: 150px;
+    }
+    .BiTool_Charts_FirstProgressiveCircle{
+        margin-left: 294px;
+    }
+    .BiTool_Charts_SecondProgressiveCircle{
+        margin-left: 363px;
+    }
+    .BiTool_Charts_ThirdProgressiveCircle{
+        margin-left: 430px;
+    }
+    .BiTool_Charts_FirstChart{
+        margin-left: -6px;
+        margin-top: 200px;
+    }
+    .QrCode_NoTab_CentralImg{
+        left: 29%;
+    }
+    .QrCode_NoTab_BackgroundBlur{
+        width: 230px;
+        -webkit-filter: blur(250px);
+        filter: blur(250px);
+    }
+}
+@media (max-width: 413px) {
+    .header_Offer_LeftSide_Title{
+        max-width: 170px;
+    }
+    
+    .header_Offer_LeftSide_UnderTitle{
+        max-width: 170px;
+    }
+    .StartUsing_Mail{
+        padding-top: 40px;
+        padding-left: 20px;
+    }
+    .StartUsing_Login{
+        padding-top: 40px;
+        padding-right: 110px;
+        padding-left: 20px;
+    }
+    .StartUsing_Mail h4{
+        max-width: 320px;
+    }
+    .OurMission_PhoneImg_Img{
+        max-width: 350px;
+    }
+    .OurMission_Description{
+        margin-left: 10px;
+    }
+    .BiTool_Charts_FourthChart{
+        margin-top: 0px;
+        margin-left: 405px;
+    }
+    .BiTool_Charts_ThirdChart{
+        margin-top: 85px;
+    }
+    .BiTool_Charts_FifthChart{
+        margin-top: 138px;
+        margin-left: 287px;
+    }
+    .BiTool_Charts_FourthSlicedCircle{
+        margin-top: 92px;
+    }
+    .BiTool_Charts_ThirdSlicedCircle{
+        margin-top: 92px;
+        margin-left: 236px;
+    }
+    .BiTool_Charts_SecondSlicedCircle{
+        margin-top: 92px;
+        margin-left: 197px;
+    }
+    .BiTool_Charts_FirstSlicedCircle{
+        margin-top: 92px;
+        margin-left: 159px;
+    }
+    .QrCode_MainContent_PhoneImg img{
+        max-width: 260px;
+    }
+    .QrCode_MainContent_SectionDescriptionPlusDownloadButtons .SectionDescription{
+        padding-top: 40px;
+    }
+    .QrCode_MainContent_PhoneImg_HigherPhone{
+        margin-top: 200px;
+    }
+    .QrCode{
+        margin-bottom: 1971px;
+    }
+    .QrCode_NoTab_PhoneImg_Img{
+        width: 181px;
+    }
+    .QrCode_MiniText{
+        left: 57px;
+        top: 359px
+    }
+    .QrCode_NoTab_CentralImg{
+        left: 27%;
+    }
+    .LiquidPhone_MainImg img{
+        max-width: 300px;
+    }
+    .LiquidPhone_MainImg_SecondBorderDiv p{
+        font-size: 12px;
+    }
+    .LiquidPhone_SectionDescription{
+        margin-bottom: 170px;
+    }
+    .LiquidPhone_MainImg_SecondBorderDiv{
+        margin-top: -57px;
+    }
+    .LiquidPhone_MainImg_FirstBorderDiv p{
+        font-size: 12px;
+    }
+    .LiquidPhone_MainImg_FirstBorderDiv{
+        margin-top: 38px;
+        margin-left: 159px;
+    }
+    .LiquidPhone_MainImg_FourthBorderDiv p{
+        font-size: 12px;
+    }
+    .LiquidPhone_MainImg_FourthBorderDiv{
+        margin-top: 266px;
+        margin-right: 165px;
+    }
+    .LiquidPhone_MainImg_ThirdBorderDiv p{
+        font-size: 12px;
+    }
+    .LiquidPhone_MainImg_ThirdBorderDiv{
+        margin-left: 189px;
+        margin-top: 337px;
+    }
+    .NoTabOnPhone_Img img{
+        max-width: 300px;
+    }
+    .GetInTouch{
+        margin-top: 170px;
+    }
+    .GetInTouch_Feed_Form_Name{
+        padding-right: 20px;
+        margin-bottom: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .GetInTouch_Feed_Form_VenueName{
+        padding-right: 20px;
+        margin-bottom: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .GetInTouch_Feed_Form_City_StateCity{
+        padding-right: 20px;
+        margin-bottom: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .GetInTouch_Feed_Form_City_VenueCity{
+        padding-right: 20px;
+        margin-bottom: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .GetInTouch_Feed_Form_Subject{
+        padding-right: 20px;
+        margin-bottom: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .GetInTouch_Feed_Form_City{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        
+    }
+    .GetInTouch_Feed_Form_Email{
+        margin-bottom: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+    }
+    .GetInTouch_Feed_Form_Message{
+        max-width: 290px;
+    }
+    .GetInTouch .SectionDescription_MainText{
+        max-width: 300px;
+    }
+    .GetInTouch_Feed_Form{
+        max-width: 300px;
+    }
+    .GetInTouch_Feed_Form_Send{
+        padding: 30px 100px;
+    }
+    .GetInTouch .SectionDescription{
+        margin-bottom: 50px;
+    }
+    .GetInTouch{
+        margin-bottom: 140px;
+    }
+
+}
+@media (max-width: 350px) {
+    .OurMission_PhoneImg_Img{
+        max-width: 310px;
+    }
+    .OurMission{
+        margin-bottom: 170px;
+    }
+}
+@media (max-width: 348px) {
+    .StartUsing_Mail h4{
+        font-size: 20px;
+        max-width: 280px;
+    }
+    .StartUsing_Login h4{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .StartUsing_Login{
+        padding-bottom: 60px;
+    }
+    .BiTool_Charts_FirstProgressiveCircle{
+        margin-left: 276px;
+    }
+    .BiTool_Charts_SecondProgressiveCircle{
+        margin-left: 338px;
+    }
+    .BiTool_Charts_ThirdProgressiveCircle{
+        margin-left: 403px;
+    }
+    .BiTool_Charts_FourthSlicedCircle{
+        margin-left: 295px;
+    }
+    .BiTool_Charts_ThirdSlicedCircle{
+        margin-left: 260px;
+    }
+    .BiTool_Charts_SecondSlicedCircle{
+        margin-left: 222px;
+    }
+    .BiTool_Charts_FirstSlicedCircle{
+        margin-left: 184px;
+    }
+    .BiTool_Charts_FourthChart{
+        margin-left: 385px;
+    }
+    .QrCode_NoTab_CentralImg{
+        left: 25%;
+    }
+}
